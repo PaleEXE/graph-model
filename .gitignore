@@ -1,0 +1,34 @@
+runs/
+**/*.pt       # Ignore all PyTorch checkpoint files (e.g., best.pt, last.pt)
+**/*.onnx    # Ignore all exported ONNX model files
+**/*.engine  # Ignore TensorRT engine files
+**/*.tflite  # Ignore TFLite model files
+*.pt
+
+__pycache__/
+*.pyc
+*.pyd
+*.so
+.Python
+env/
+venv/
+/pip-wheel-*.log
+.ruff_cache/
+.pytest_cache/
+
+.vscode/        # VS Code settings
+.idea/          # PyCharm/IntelliJ settings
+*.swp           # Vim swap files
+*~              # Temporary files
+.DS_Store       # Mac OS metadata
+Thumbs.db       # Windows thumbnail cache
+
+*.zip
+*.tar
+temp/
+tmp/
+
+yolo_dataset/
+images/
+labels/
+myenv/

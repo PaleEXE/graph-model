@@ -1,0 +1,9 @@
+path: yolo_dataset
+
+train: images/train
+val: images/val
+test: images/test    
+
+nc: 2
+
+names: ['node', 'edge']
