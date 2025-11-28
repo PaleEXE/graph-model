@@ -12,6 +12,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 /pip-wheel-*.log
 .ruff_cache/
 .pytest_cache/
@@ -28,7 +29,9 @@ Thumbs.db       # Windows thumbnail cache
 temp/
 tmp/
 
-yolo_dataset/
+yolo_dataset*/
 images/
 labels/
 myenv/
+.zed/
+*.DNG

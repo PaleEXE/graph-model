@@ -1,10 +1,10 @@
 from ultralytics.data.converter import convert_coco
 
 # Define the directory where your COCO JSON files are located
-coco_labels_dir = 'yolo_dataset/annotations/'
+coco_labels_dir = "yolo_dataset2/annotations/"
 
 # Define the directory where the new YOLO-format labels will be saved
-yolo_save_dir = 'yolo_dataset/'
+yolo_save_dir = "yolo_dataset3/"
 
 # Run the conversion for segmentation (use_segments=True)
 convert_coco(
